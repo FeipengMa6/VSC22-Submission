@@ -11,7 +11,7 @@ conda activate descriptor
 Please download the [VSC-2022](https://www.drivendata.org/competitions/101/meta-video-similarity-descriptor/page/570/) dataset into `data/videos/`
  <!-- download the [DISC-2021](https://ai.facebook.com/datasets/disc21-downloads/) dataset into `data/images/`. -->
 
-Download [checkpoints](https://share.weiyun.com/202fFV2u) into `checkpoints/`.
+Download [checkpoints](https://drive.google.com/file/d/1GL0xhTTSHav_iG79yJ1jqgQcmuJFs_lF/view?usp=sharing) into `checkpoints/`.
 
 ## Shortcut
 You can train and evaluate the model in a quick way.
