@@ -4,6 +4,10 @@ The code reproduce the results of our solutions on both tracks for [Meta AI Vide
 
 Our solutions got the second place on Descriptor Track and the first place on Matching Track.
 
+## Dependencies
+We provide DockerFiles to help you build a runnable environment directly.
+Or you can run setup.sh to install each package on your runnable environment.
+
 ## Usage
 
 Cause our matching solution partialy depend on the results of descriptor solution, you should **reproduce the results of descriptor track first**.

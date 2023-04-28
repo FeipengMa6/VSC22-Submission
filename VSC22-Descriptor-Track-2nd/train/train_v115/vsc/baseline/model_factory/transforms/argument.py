@@ -173,10 +173,10 @@ class RandomOverlayCorners(BaseTransform):
 
     def __init__(self, always_apply=False, p=0.5):
         super().__init__(always_apply, p)
-        self._c1 = Image.open("../data/meta/bg_img/1_bg.png")
-        self._c2 = Image.open("../data/meta/bg_img/2_bg.png")
-        self._c3 = Image.open("../data/meta/bg_img/3_bg.png")
-        self._c4 = Image.open("../data/meta/bg_img/4_bg.png")
+        self._c1 = Image.open("../../data/meta/bg_img/1_bg.png")
+        self._c2 = Image.open("../../data/meta/bg_img/2_bg.png")
+        self._c3 = Image.open("../../data/meta/bg_img/3_bg.png")
+        self._c4 = Image.open("../../data/meta/bg_img/4_bg.png")
 
     def _transform(self, image):
         img = image

@@ -8,7 +8,12 @@ conda env create -f environment.yml
 conda activate descriptor
 ```
 ## Download dataset and pretrained models 
-Please download the [VSC-2022](https://www.drivendata.org/competitions/101/meta-video-similarity-descriptor/page/570/) dataset into `data/videos/`
+Please download the [VSC-2022](https://www.drivendata.org/competitions/101/meta-video-similarity-descriptor/page/570/) dataset into `data/videos/`.
+Or make a softlink to your VSC-2022 dataset
+```
+ln -s path/to/vsc22/train data/videos/train
+ln -s path/to/vsc22/test data/videos/test
+```
  <!-- download the [DISC-2021](https://ai.facebook.com/datasets/disc21-downloads/) dataset into `data/images/`. -->
 
 Download [checkpoints](https://drive.google.com/file/d/1GL0xhTTSHav_iG79yJ1jqgQcmuJFs_lF/view?usp=sharing) into `checkpoints/`.
