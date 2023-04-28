@@ -1,12 +1,6 @@
 # Solution of VSC-2022-Descriptor-Track (Rank 2)
 The code reproduce the results of the 2nd solution of VSC-2022-Descriptor-Track
 
-## Dependencies
-We use conda to manage our runtime environment, please use the instructions below to create a virtual conda environment.
-```
-conda env create -f environment.yml
-conda activate descriptor
-```
 ## Download dataset and pretrained models 
 Please download the [VSC-2022](https://www.drivendata.org/competitions/101/meta-video-similarity-descriptor/page/570/) dataset into `data/videos/`.
 Or make a softlink to your VSC-2022 dataset

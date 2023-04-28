@@ -1,13 +1,6 @@
 # Solution of VSC-2022-Matching-Track (Rank 1)
 The code reproduce the results of the 1st solution of VSC-2022-Matching-Track
 
-## Dependencies
-We use conda to manage our runtime environment, please use the instructions below to create a virtual conda environment.
-```
-conda env create -f environment.yml
-conda activate matching
-```
-
 ## Prepare
 
 The matching track heavily rely on decriptor track. To reproduce the result, you should first train the descriptor model, extract frame embeddings of train query/ref videos. The embedding required during train and inference are evenly extracted at one frame per second.   
