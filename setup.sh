@@ -32,3 +32,4 @@ mim install mmcv==1.7.1
 pip install timm==0.6.12 
 pip install augly==1.0.0
 pip install matplotlib
+pip install loguru
