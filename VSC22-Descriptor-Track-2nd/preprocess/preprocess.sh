@@ -1,4 +1,4 @@
-# python3 vid2jpg_zip.py
+python3 vid2jpg_zip.py
 
 # train_vsc
 python3 zip2lmdb.py \

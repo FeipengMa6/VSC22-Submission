@@ -2,9 +2,10 @@ projectdir=./
 export PYTHONPATH=$PYTHONPATH:$projectdir
 config=./config_vid_score.py
 workdir=./
+gpu_count=$(nvidia-smi --query-gpu=name --format=csv,noheader | wc -l)
 
 # extract features first
-python3 -m torch.distributed.launch  --nproc_per_node 2 video_score_train.py --config $config \
+python3 -m torch.distributed.launch  --nproc_per_node ${gpu_count} ./video/extract_feat.py \
 --save_file ../../data/feat_zip/feats.zip \
 --zip_prefix ../../data/jpg_zips \
 --input_file ../../data/meta/vids.txt \
@@ -15,7 +16,7 @@ python3 -m torch.distributed.launch  --nproc_per_node 2 video_score_train.py --c
 
 
 # train video score model
-python3 -m torch.distributed.launch  --nproc_per_node 2 video_score_train.py --config $config \
+python3 -m torch.distributed.launch  --nproc_per_node ${gpu_count} video_score_train.py --config $config \
 --work_dir $workdir  \
 --batch_size 64 \
 --num_workers 8 \
