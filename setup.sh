@@ -33,3 +33,4 @@ pip install timm==0.6.12
 pip install augly==1.0.0
 pip install matplotlib
 pip install loguru
+conda install -y -c conda-forge ffmpeg=4.4
