@@ -1,5 +1,5 @@
-# Solution of VSC-2022-Descriptor-Track (Rank 2)
-The code reproduce the results of the 2nd solution of VSC-2022-Descriptor-Track
+# Solution of VSC-2022-Descriptor-Track (Rank 1)
+The code reproduce the results of the 1st solution of VSC-2022-Descriptor-Track
 
 ## Download dataset and pretrained models 
 Please download the [VSC-2022](https://www.drivendata.org/competitions/101/meta-video-similarity-descriptor/page/570/) dataset into `data/videos/`.
@@ -122,9 +122,9 @@ bash eval.sh
 ## Results
 | User or team | Phase1 uAP |  Phase2 uAP |
 | :----| :----:|:----: |
-| FriendshipFirst | 0.9197 | 0.9047|
 | **Ours** | **0.9176** | **0.8717** |
-| cvl-descriptor | 0.8534 | 0.8541 |
+| FriendshipFirst | 0.9197 | 0.8514|
+| cvl-descriptor | 0.8534 | 0.8362 |
 | Zihao | 0.7841 | 0.7729|
 
 
