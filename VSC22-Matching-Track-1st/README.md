@@ -64,8 +64,8 @@ bash infer.sh
 | User or team | Phase1 uAP |  Phase2 uAP |
 | :----| :----:|:----: |
 | **Ours** | 0.9290 | 0.9153|
-| CompetitionSecond | 0.8206 | 0.8020 |
-| cvl-matching | 0.7727 | 0.7759 |
+| CompetitionSecond | 0.8206 | 0.7711 |
+| cvl-matching | 0.7727 | 0.7036 |
 
 
 
