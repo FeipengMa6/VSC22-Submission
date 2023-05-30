@@ -25,4 +25,12 @@ If you find this code helpful, please cite our paper,
   journal={arXiv preprint arXiv:2305.12361},
   year={2023}
 }
+
+@article{liu2023similarity,
+  title={A Similarity Alignment Model for Video Copy Segment Matching},
+  author={Liu, Zhenhua and Ma, Feipeng and Wang, Tianyi and Rao, Fengyun},
+  journal={arXiv preprint arXiv:2305.15679},
+  year={2023}
+}
+
 ```
